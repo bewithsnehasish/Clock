@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="icon" href="clock.png">
+
+</head>
+<body>
+  <div id="timecontainer">
+    <h1>Stopwatch & Timer</h1>
+    <div id="timeDisplay">00:00:00:<span>000</span></div>
+    <div class="buttons">
+      <i id="startBtn" class="ri-play-circle-fill"></i>
+      <i id="pauseBtn" class="ri-pause-circle-fill" ></i>
+      <i id="resetBtn" class="ri-refresh-fill"></i>
+      <i class="ri-flag-fill" id="lapBtn"></i>
+    </div>
+    <div id="lapsContainer">
+      <p id="lapsList"></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
